@@ -1,0 +1,50 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1552963563831" stop="1552963563844">
+  <name>test01</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1552963563831" status="passed" stop="1552963563839">
+      <name>Test01.test001</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="19892-MainThread"/>
+        <label name="host" value="DESKTOP-RVLV4O9"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1552963563838" status="passed" stop="1552963563839">
+          <name>新增地址方法被执行</name>
+          <title>新增地址方法被执行</title>
+          <attachments>
+            <attachment source="232d0081-349b-4a33-89f6-4b1b438dfedc-attachment.txt" title="点击新增地址按钮" type="text/plain"/>
+            <attachment source="99dddc55-0569-4539-8241-811faf95d7f1-attachment.txt" title="点击新增输入收件人：" type="text/plain"/>
+            <attachment source="a1f909d3-e3c4-41a9-994f-9e828f456078-attachment.txt" title="点击新增输入手机号：" type="text/plain"/>
+            <attachment source="1aa62e1c-7600-4c8c-95cd-13fc2d8eae46-attachment.txt" title="点击新增输入收货地址：" type="text/plain"/>
+            <attachment source="34f90339-cd15-4670-98b1-6a237761d534-attachment.txt" title="点击新增输入点击新增：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1552963563843" status="passed" stop="1552963563844">
+      <name>Test01.test002</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19892-MainThread"/>
+        <label name="host" value="DESKTOP-RVLV4O9"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1552963563844" status="passed" stop="1552963563844">
+          <name>更新地址方法被执行</name>
+          <title>更新地址方法被执行</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

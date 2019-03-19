@@ -1,0 +1,24 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1552963512702" stop="1552963512702">
+  <description>This is the tests collection phase. Failures are modules that failed to collect.</description>
+  <name>test_collection_phase</name>
+  <title>Collection phase</title>
+  <labels/>
+  <test-cases>
+    <test-case start="1552963512702" status="broken" stop="1552963512702">
+      <name>test01</name>
+      <failure>
+        <message>failed</message>
+        <stack-trace>test01.py:14: in &lt;module&gt;
+    class Test01:
+test01.py:16: in Test01
+    @pytest.allure.severity(pytest.allure.severty_level.BLOCKER)
+C:\Users\Hz\AppData\Local\Programs\Python\Python36-32\lib\site-packages\allure\pytest_plugin.py:458: in __getattr__
+    raise AttributeError
+E   AttributeError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
